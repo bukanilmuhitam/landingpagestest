@@ -1,0 +1,140 @@
+body {
+    font-family: 'Montserrat';
+}
+
+.wrap-content {
+    margin-top: 60px !important;
+    margin-bottom: 60px !important;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: 600; 
+    color: #3C3C3C !important; 
+}
+
+.nav-item {
+    font-size: 14px;
+    font-weight: 600;
+    color: #3C3C3C !important;
+    margin-right: 24px;
+}
+
+.nav-item.active {
+    color:  #5525ED !important;
+}
+
+.nav-item:hover {
+    color:  #5525ED !important;
+}
+
+.navbar {
+    background-color: white !important;
+}
+
+.jumbotron {
+    height: 360px;
+    background-image: url('../images/jumbotron/1.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -70px;
+}
+
+.text-jumbotron {
+    margin-top: 90px;
+    color: white;
+}
+
+.text-jumbotron p {
+    font-size: 14px;
+}
+
+.heading-jumbotron {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+/* Custum color */
+.bg-ungu {
+    background-color: #5525ED !important;
+    border: 0;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+
+.informasi {
+    background-color: #DBDBDB;
+    margin-top: -35px;
+}
+
+.informasi p {
+    font-size: 16px;
+    color: grey;
+}
+
+.content-image {
+    width:64px;
+    height: 64px;
+    background-color: #5525ED;
+    border-radius: 50%;
+    padding: 20px;
+    margin: auto;
+}
+
+.icon {
+    font-size: 26px;
+    color: white;
+}
+
+.service h6 {
+    font-weight: 600;
+}
+
+.paragraf {
+    font-size: 14px;
+    color: gray;
+}
+
+footer {
+    margin-top: 80px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* Desktrop view */
+
+@media (min-width: 992px) { 
+
+    .navbar {
+        background-color: transparent !important;
+    }
+
+    .navbar-brand {
+        color:  white !important;
+    }
+
+    .nav-item {
+        color:  white !important;
+    }
+
+    .jumbotron {
+        height: 460px;
+    }
+
+    .text-jumbotron {
+        margin-top: 80px;
+    }
+
+    .heading-jumbotron {
+        font-size: 36px;
+    }
+
+    .text-jumbotron p {
+        font-size: 18px;
+    }
+
+
+}
